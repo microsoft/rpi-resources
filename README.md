@@ -1,3 +1,7 @@
+# Raspberry Pi Resources
+Topic | Link | Level
+------|------|------
+Set up your Raspberry Pi without a monitor | [Headless Setup](/headless-setup/)|Beginner/Intermediate
 
 # Contributing
 
