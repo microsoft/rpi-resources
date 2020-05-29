@@ -2,6 +2,7 @@
 In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meaning you'll be able to use it without its own keyboard, mouse, or monitor. You will connect to it either over WiFi or using an ethernet cable. Using you Raspberry Pi in a headless configuration is handy if you don't have room to setup another monitor and keyboard or your Raspberry Pi is somewhere hard to reach. 
 ## Things you'll need
 - Raspberry Pi
+- Power cable
 - Ethernet cable
 - Ethernet adapter (if you computer doesn't have a built in port)
 - Micro SD card
@@ -33,7 +34,7 @@ In the following section you'll connect to Raspberry Pi from you computer, chang
 1. Insert the Micro SD card into the SD card slot on the Raspberry Pi
 1. Connect your Raspberry Pi to a power source
 1. On your computer open Command Prompt (windows) or Terminal (mac)
-1. Type `ssh pi@raspberrypi.local -o "UserKnownHostsFile /dev/null"`. *Note: we use the **UserKnownHostsFile=/dev/null** option here in order to not save the hostname to our ssh Known Host record. We only do this the first time we connect because we're going to change the Host Name.*
+1. Type `ssh pi@raspberrypi.local -o UserKnownHostsFile=/dev/null`. *Note: we use the **UserKnownHostsFile=/dev/null** option here in order to not save the hostname to our ssh Known Host record. We only do this the first time we connect because we're going to change the Host Name.*
 1. You will be asked if you trust this source, say yes
 ![](images/ssh-wifi.png)
 1. You will be prompted for a password, enter `raspberry` 
@@ -55,15 +56,29 @@ In the following section you'll connect to Raspberry Pi from you computer, chang
 If you are comfortable working in Linux command line you can stop here. If you prefer to work in a desktop environment the next section will walk you through setting up Remote Desktop.
 
 ## Remote Desktop
-1. If you're using Windows you'll need to install Remote Desktop to do that type `sudo apt-get install xrdp` this will take a few minutes. If you are using a Mac RealVNC is already installed.
-2. Open remote Desktop on you computer, and enter the hostname you gave your Raspberry Pi
+### Windows set up
+1. If you're using Windows you'll need to install Remote Desktop to do that type `sudo apt-get install xrdp` this will take a few minutes.
+1. Open remote Desktop on you computer, and enter the hostname you gave your Raspberry Pi
 ![](images/remote.png)
-3. Enter your user name and password.
+1. Enter your user name and password.
 ![](images/remote-desktop.png)
-4. You're all set, now you have access to your Raspberry Pi desktop.
+1. You're all set, now you have access to your Raspberry Pi desktop.
 ![](images/pi-desktop.png)
-
-
+### Mac OS set up
+1. If you are using a Mac RealVNC is already installed, but you'll have to change the screen resolution to anything besides the default. To do that type `sudo raspi-config`
+1. Select option 7 **Advanced Options**
+1. Select option A5 **Screen Resolution**
+1. Choose any resolution other than the default
+![](images/resolution.png)
+1. Your Raspberry Pi will reboot
+1. On your Mac download [RealVNC viewer](https://www.realvnc.com/en/connect/download/viewer/macos/)
+1. Read through the EULA and the privacy notices before accepting. You will also be asked to allow access to the accessibility features of your computer.
+1. In RealVNC enter the hostname you gave your device
+![](images/vnc-hostname.png)
+1. Log in with your user name and password.
+![](images/vnc-log-in.png)
+1. You can now access the Raspberry Pi's desktop from your Mac
+![](images/mac-desktop.png)
 
     
 
