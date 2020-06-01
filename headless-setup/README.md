@@ -11,11 +11,11 @@ In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meani
 In this section you'll prepare a new SD card to use in your Raspberry Pi.
 1. Create your SD Card using [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
 1. Select **CHOOSE OS**
-![Raspberry Pi imager](images/raspberry-pi-imager.png)
+![Raspberry Pi imager](images/raspberry-pi-imager.PNG)
 1. Select **Raspian**
-![Choose Raspian in imager](images/select-os.png)
+![Choose Raspian in imager](images/select-os.PNG)
 1. Select the SD card you want to image and press **WRITE**
-![Press Write](images/write.png)
+![Press Write](images/write.PNG)
 *Note: this may take a few minutes to run*
 ## Setting up SSH and WiFi
 1. Once the imager is done, eject and reinsert SD Card. Open the SD card directory in file explorer.
