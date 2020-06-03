@@ -14,6 +14,7 @@ In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meani
 ## Prepare your SD Card
 
 In this section you'll prepare a new SD card to use in your Raspberry Pi.
+
 1. Create your SD Card using [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
 1. Select **CHOOSE OS**  
 ![Raspberry Pi imager](images/raspberry-pi-imager.PNG)
@@ -77,6 +78,7 @@ If you are comfortable working in Linux command line you can stop here. If you p
 ![](images/pi-desktop.png)  
 
 ### Mac OS set up
+
 1. If you are using a Mac RealVNC is already installed, but you'll have to change the screen resolution to anything besides the default. To do that type `sudo raspi-config`
 1. Select option 7 **Advanced Options**
 1. Select option A5 **Screen Resolution**
