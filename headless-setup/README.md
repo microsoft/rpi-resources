@@ -1,6 +1,6 @@
 # Setting up the Raspberry Pi without a Monitor
 
-In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meaning you'll be able to use it without its own keyboard, mouse, or monitor. You will connect to it either over WiFi or using an ethernet cable. Using you Raspberry Pi in a headless configuration is handy if you don't have room to setup another monitor and keyboard or your Raspberry Pi is somewhere hard to reach. You will be connecting to your Raspberry Pi using Secure Shell or SSH for short, SSH allows your connect and control other devices as long as they on the same network. You can read more about SSH on the Raspberry Pi [here](https://www.raspberrypi.org/documentation/remote-access/ssh/)
+In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meaning you'll be able to use it without its own keyboard, mouse, or monitor. You will connect to it either over WiFi or using an ethernet cable. Using you Raspberry Pi in a headless configuration is handy if you don't have room to setup another monitor and keyboard or your Raspberry Pi is somewhere hard to reach. You will be connecting to your Raspberry Pi using Secure Shell or SSH for short, SSH allows your connect and control other devices as long as they on the same network. You can read more about SSH on the Raspberry Pi [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).
 
 ## Things you'll need
 
