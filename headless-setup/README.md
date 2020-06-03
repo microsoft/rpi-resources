@@ -1,23 +1,31 @@
 # Setting up the Raspberry Pi without a Monitor
+
 In this tutorial you'll set up a Raspberry Pi in a headless configuration. Meaning you'll be able to use it without its own keyboard, mouse, or monitor. You will connect to it either over WiFi or using an ethernet cable. Using you Raspberry Pi in a headless configuration is handy if you don't have room to setup another monitor and keyboard or your Raspberry Pi is somewhere hard to reach. You will be connecting to your Raspberry Pi using Secure Shell or SSH for short, SSH allows your connect and control other devices as long as they on the same network. You can read more about SSH on the Raspberry Pi [here](https://www.raspberrypi.org/documentation/remote-access/ssh/)
+
 ## Things you'll need
+
 - Raspberry Pi
 - Power cable
 - Ethernet cable
 - Ethernet adapter (if you computer doesn't have a built in port)
 - Micro SD card
 - Micro SD card reader
+
 ## Prepare your SD Card
+
 In this section you'll prepare a new SD card to use in your Raspberry Pi.
 1. Create your SD Card using [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
 1. Select **CHOOSE OS**  
 ![Raspberry Pi imager](images/raspberry-pi-imager.PNG)
 1. Select **Raspian**  
 ![Choose Raspian in imager](images/select-os.PNG)
-1. Select the SD card you want to image and press **WRITE**  
+1. Select the SD card you want to image and press 
+**WRITE**
 ![Press Write](images/write.PNG)  
 *Note: this may take a few minutes to run*
+
 ## Setting up SSH and WiFi
+
 1. Once the imager is done, eject and reinsert SD Card. Open the SD card directory in file explorer.
 1. Copy the ssh file from this repository on to the SD Card. If you your Raspberry Pi supports WiFi (Pi0/3/4) also copy the wpa_supplicant.conf and follow the steps below (you can also skip these steps and step WiFi later):
     1. Open *wpa_supplicant.conf* in a text editor
@@ -28,6 +36,7 @@ In this section you'll prepare a new SD card to use in your Raspberry Pi.
 *What are these files? ssh is an empty file that lets Raspian know to enable Secured Socket Host when first initializing the operating system. wpa_supplicant.conf allows you to enter your WiFi credentials at setup.*
 
 ## Configuring your Raspberry Pi
+
 In the following section you'll connect to Raspberry Pi from you computer, change the password, and update the operating system.
 
 0. (Skip this step if you're connected to WiFi) Connect your Raspberry Pi to your computer with an ethernet cable
@@ -56,7 +65,9 @@ In the following section you'll connect to Raspberry Pi from you computer, chang
 If you are comfortable working in Linux command line you can stop here. If you prefer to work in a desktop environment the next section will walk you through setting up Remote Desktop.
 
 ## Remote Desktop
+
 ### Windows set up
+
 1. If you're using Windows you'll need to install Remote Desktop to do that type `sudo apt-get install xrdp` this will take a few minutes.  
 1. Open remote Desktop on you computer, and enter the hostname you gave your Raspberry Pi  
 ![](images/remote.png)  
@@ -64,6 +75,7 @@ If you are comfortable working in Linux command line you can stop here. If you p
 ![](images/remote-desktop.png)  
 1. You're all set, now you have access to your Raspberry Pi desktop.  
 ![](images/pi-desktop.png)  
+
 ### Mac OS set up
 1. If you are using a Mac RealVNC is already installed, but you'll have to change the screen resolution to anything besides the default. To do that type `sudo raspi-config`
 1. Select option 7 **Advanced Options**
@@ -78,7 +90,4 @@ If you are comfortable working in Linux command line you can stop here. If you p
 1. Log in with your user name and password.  
 ![](images/vnc-log-in.png)  
 1. You can now access the Raspberry Pi's desktop from your Mac  
-![](images/mac-desktop.png)  
-
-    
-
+![](images/mac-desktop.png)
