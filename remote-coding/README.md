@@ -1,6 +1,6 @@
 # Code on your Pi remotely using VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=rpi_resources-github-jabenn) is a lightweight, cross-platform, open source code editor. You can install extensions to support a wide range of programming languages, connect to cloud services such as Azure, an even access other devices remotely.
+[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=rpi_resources-github-jabenn) is a lightweight, cross-platform, open source code editor. You can install extensions to support a wide range of programming languages, connect to cloud services such as Azure, and even access other devices remotely.
 
 One of these extensions is the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&WT.mc_id=rpi_resources-github-jabenn), and this allows you to run Visual Studio Code on one device whilst connected to a remote device, accessing the remote file system and debugging applications as if you were running on that remote device directly.
 
