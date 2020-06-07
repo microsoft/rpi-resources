@@ -61,7 +61,7 @@ Once you are connected, Visual Studio Code will be running as if it was installe
 
 ## Using Visual Studio Code extensions on the remote device
 
-If you want to use any extensions, these will need to be installed - the remote session doesn't automatically install the extensions that you have installed locally, you have to explicitly install extensions such as the Python extension on the remote device.
+If you want to use extensions on the Pi, such as the Python extension, these will need to be installed directly as the remote session does not include extensions that you may have installed on your laptop or desktop
 
 ### Installing Python Extension
 For example - to install the Python extension, follow these steps:
