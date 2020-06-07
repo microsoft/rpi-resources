@@ -51,7 +51,7 @@ To enable remote development in Visual Studio Code, install the [Remote Developm
 
    ![The host added dialog](./images/HostAddedDialog.png)
 
-1. A new Visual Studio Code window will open to host the connection. In the password prompt dialog, enter the password for your Raspberry Pi. The default password is `raspberry`, unless you changed it when doing the headless setup.
+1. A new VS Code window will open to host the connection. Enter your password (default is `raspberry`)
 
    ![The password entry dialog](./images/SSHPassword.png)
 
