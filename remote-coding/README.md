@@ -10,7 +10,7 @@ This is great for users of Raspberry Pis. You can run Visual Studio code on your
 
 ## Connect to the Raspberry Pi from Visual Studio Code
 
-To connect to your Raspberry Pi, first set it up for headless access by following the [headless setup guide](../headless-setup/).
+First setup your Pi for headless access by following the [headless setup guide](../headless-setup/).
 
 ### Install the Remote Development extension in Visual Studio Code
 
