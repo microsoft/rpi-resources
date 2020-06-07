@@ -4,7 +4,7 @@
 
 One of these extensions is the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&WT.mc_id=rpi_resources-github-jabenn), which allows you to run Visual Studio Code (VS Code) to remotely connect to and program another device
 
-This is a helpful extension for Pi users, as you can run VS Code on your main laptop or desktop and remotely code on the Pi, with full file system access, editing, and uploading, GPIO programming, and debugging.
+This is a helpful extension for Pi users, as you can run VS Code on your main laptop or desktop and remotely code on the Pi, with full file system access, editing, uploading, GPIO programming, and debugging.
 
 > Only Pis using ARMv7 and v8 are supported, so only Pi 3 and 4s are supported. Earlier Pi devices and Pi Zeros are not supported. If you would like support for these devices, please up-vote [this issue on GitHub](https://github.com/microsoft/vscode-remote-release/issues/669)
 
