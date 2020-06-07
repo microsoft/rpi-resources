@@ -14,7 +14,7 @@ First setup your Pi for headless access by following the [headless setup guide](
 
 ### Install the Remote Development extension in Visual Studio Code
 
-To enable remote development in Visual Studio Code, you will need to install the [Remote Development Extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&WT.mc_id=rpi_resources-github-jabenn).
+To enable remote development in Visual Studio Code, install the [Remote Development Extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&WT.mc_id=rpi_resources-github-jabenn).
 
 1. Launch Visual Studio Code
 
