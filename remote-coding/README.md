@@ -41,7 +41,7 @@ To enable remote development in Visual Studio Code, install the [Remote Developm
 
    ![The add new host option](./images/AddNewSSHHost.png)
 
-1. Enter `pi@raspberrypi.local` as the SSH connection command, changing the device name from `raspberrypi` if you changed it when doing the headless setup.
+1. Enter `pi@raspberrypi.local` as the SSH connection command, changing the hostname from `raspberrypi` if you changed it when doing the headless setup.
 
    ![The SSH connection command](./images/EnterSSHHost.png)
 
