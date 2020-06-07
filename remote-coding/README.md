@@ -1,4 +1,4 @@
-# Code on your Pi remotely using VS Code
+# Remotely code on your Pi with VS Code
 
 [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=rpi_resources-github-jabenn) is a lightweight, cross-platform, open source code editor. You can install extensions to support a wide range of programming languages, connect to cloud services such as Azure, and even access other devices remotely.
 
