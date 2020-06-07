@@ -3,7 +3,7 @@
 Topic | Link | Level
 ------|------|------
 Set up your Raspberry Pi without a monitor | [Headless Setup](/headless-setup/)|Beginner/Intermediate
-Code on your Pi remotely using Visual Studio Code | [Remote coding](/remote-coding/)|Beginner/Intermediate
+Remotely code on your Pi with Visual Studio Code | [Remote coding](/remote-coding/)|Beginner/Intermediate
 
 ## Contributing
 
