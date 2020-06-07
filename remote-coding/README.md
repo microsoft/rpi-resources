@@ -63,6 +63,7 @@ Once you are connected, Visual Studio Code will be running as if it was installe
 
 If you want to use any extensions, these will need to be installed - the remote session doesn't automatically install the extensions that you have installed locally, you have to explicitly install extensions such as the Python extension on the remote device.
 
+### Installing Python Extension
 For example - to install the Python extension, follow these steps:
 
 1. Select the Extensions tab from the left hand menu, or select *View -> Extensions*
