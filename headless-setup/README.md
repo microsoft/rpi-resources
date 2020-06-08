@@ -75,7 +75,7 @@ If you are comfortable working in Linux command line you can stop here. If you p
 1. Enter your user name and password.  
 ![Raspberry pi remote sign-in](images/remote-desktop.png)  
 1. You're all set, now you have access to your Raspberry Pi desktop.  
-![](images/pi-desktop.png)  
+![Raspberry Pi desktop running in a remote desktop session](images/pi-desktop.png)  
 
 ### Mac OS set up
 
@@ -88,8 +88,8 @@ If you are comfortable working in Linux command line you can stop here. If you p
 1. On your Mac download [RealVNC viewer](https://www.realvnc.com/en/connect/download/viewer/macos/)
 1. Read through the EULA and the privacy notices before accepting. You will also be asked to allow access to the accessibility features of your computer.  
 1. In RealVNC enter the hostname you gave your device  
-![](images/vnc-hostname.png)  
+![Entering the hostname into real VNC](images/vnc-hostname.png)  
 1. Log in with your user name and password.  
 ![Prompt to authenticate to VNC server](images/vnc-log-in.png)  
 1. You can now access the Raspberry Pi's desktop from your Mac  
-![](images/mac-desktop.png)
+![Raspberry Pi desktop running in a Real VNC session](images/mac-desktop.png)
