@@ -6,9 +6,6 @@
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Breaking change
-## What's happening now?
-
-## What's changed?
 
 ## Checklist
 - [ ] Code follows this projects style guide
