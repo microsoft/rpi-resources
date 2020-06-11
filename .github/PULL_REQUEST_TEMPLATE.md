@@ -13,7 +13,7 @@
 ## Checklist
 - [ ] Tested in deployment environment
 - [ ] Tested in an alternate environment (please update here: )
-- [ ] Major feature added
+- [ ] Required documentation has been updated
 - [ ] Other (explain: )
 
 ## Additional information
