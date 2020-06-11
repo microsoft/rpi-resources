@@ -3,7 +3,9 @@
 ## Fixes
 
 ## Type of PR
-
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
 ## What's happening now?
 
 ## What's changed?
