@@ -18,7 +18,7 @@ In this section you'll prepare a new SD card to use in your Raspberry Pi.
 1. Create your SD Card using [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
 1. Select **CHOOSE OS**  
 ![Raspberry Pi imager OS and SD card options](images/raspberry-pi-imager.PNG)
-1. Select **Raspian**  
+1. Select **Raspberry Pi OS**  
 ![Imager operating system options](images/select-os.PNG)
 1. Select the SD card you want to image and press 
 **WRITE**
@@ -34,7 +34,7 @@ In this section you'll prepare a new SD card to use in your Raspberry Pi.
     1. Add the Network name and password in to the file
     1. Save and close the file
 
-*What are these files? ssh is an empty file that lets Raspian know to enable Secured Socket Host when first initializing the operating system. wpa_supplicant.conf allows you to enter your WiFi credentials at setup.*
+*What are these files? ssh is an empty file that lets Raspberry Pi OS know to enable Secured Socket Host when first initializing the operating system. wpa_supplicant.conf allows you to enter your WiFi credentials at setup.*
 
 ## Configuring your Raspberry Pi
 
