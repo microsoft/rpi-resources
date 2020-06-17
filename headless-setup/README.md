@@ -45,6 +45,7 @@ In the following section you'll connect to Raspberry Pi from you computer, chang
 1. Connect your Raspberry Pi to a power source
 1. On your computer open Command Prompt (windows) or Terminal (mac)
 1. Type `ssh pi@raspberrypi.local -o UserKnownHostsFile=/dev/null`. *Note: we use the **UserKnownHostsFile=/dev/null** option here in order to not save the hostname to our ssh Known Host record. We only do this the first time we connect because we're going to change the Host Name.*
+    > If you already have a Pi using the hostname `raspberrypi.local` you will need to connect using the Pi's IP address. Use the command `ssh pi@<IP_Address>`, where `<IP_Address>` is the IP address, for example `192.168.0.2`. You can find the IP address either using your routers management software, or by disconnecting the other Raspberry Pi from the network and running `ping raspberrypi.local -4` in command prompt. 
 1. You will be asked if you trust this source, say yes  
 ![Command prompt trust source](images/ssh-wifi.png)  
 1. You will be prompted for a password, enter `raspberry`  
