@@ -4,6 +4,7 @@ Topic | Link | Level
 ------|------|------
 Set up your Raspberry Pi without a monitor | [Headless Setup](/headless-setup/)|Beginner/Intermediate
 Remotely code on your Pi with Visual Studio Code | [Remote coding](/remote-coding/)|Beginner/Intermediate
+Example Python code for the Pi Camera and GPIO pins | [Sample Code](/sample-code/)|Beginner
 
 ## Contributing
 
