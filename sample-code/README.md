@@ -1,6 +1,13 @@
 # Raspberry Pi Sample Code
 
-This folder contains example Python code to use the Pi Camera and General Purpose Input and Output (GPIO) pins.
+This folder contains example Python code to use the Pi Camera and General Purpose Input and Output (GPIO) pins. To use the code samples:
+1. Download the code samples onto your Raspberry Pi.
+1. Follow the wiring diagrams in the [Schematics folder](./Schematics)
+1. Download code libraries using pip. For example:
+``` sudo pip install gpiozero ```
+1. Open the code sample in your preferred Python editor 
+1. Make any required updates as indicated in the code sample comments.
+1. Run the program!
 
 ## Contents
 * [Sample Python programs with the GPIO Zero library (e.g. blink an LED, pushbutton input, and more)](https://gpiozero.readthedocs.io/en/stable/recipes.html)
