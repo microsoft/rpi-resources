@@ -1,6 +1,5 @@
 # Import libraries
 from gpiozero import Button
-# Import Pi Camera library
 from picamera import PiCamera
 from time import sleep
 
