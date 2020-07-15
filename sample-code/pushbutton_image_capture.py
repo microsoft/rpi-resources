@@ -24,7 +24,7 @@ while True:
         #Input image file path here
         # --> Change image path as needed
         camera.capture('/home/pi/Documents/image.jpg') 
-        #Stop camera
+        # Stop camera preview (important step!)
         camera.stop_preview()
     else:
         print("waiting")
