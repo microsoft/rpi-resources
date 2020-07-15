@@ -4,7 +4,7 @@ from gpiozero import Button
 from picamera import PiCamera
 from time import sleep
 
-# Create a button object for GPIO pin 2
+# Create a button object and initialize it with GPIO pin 2
 # --> Change GPIO pin as needed
 button = Button(2)
 
