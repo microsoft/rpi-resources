@@ -10,7 +10,7 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 ## Wiring Diagrams
 Check the [schematics](/schematics) folder for wiring diagrams for relevant examples.
 
-*Note: All schematics made with the OSS Fritzing Program.*
+*All schematics were made with [Fritzing](https://fritzing.org/).*
 
 ## Resources and Going Forward
 ### Beginner Resources
