@@ -1,4 +1,4 @@
-# Import Pi GPIO library button class
+# Import libraries
 from gpiozero import Button
 # Import Pi Camera library
 from picamera import PiCamera
