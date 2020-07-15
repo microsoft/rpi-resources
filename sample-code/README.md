@@ -4,7 +4,7 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 
 ## Contents
 * Blink LED example: blink_led.py
-* Image Capture with the Pi Camera: pi_cam_image_capture.py
+* [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4
 * Pi Camera image Capture with a Pushbutton: pushbutton_image_capture.py 
 
 ## Wiring Diagrams
