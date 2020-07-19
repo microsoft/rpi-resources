@@ -2,7 +2,7 @@
 
 This folder contains example Python code to use the Pi Camera and General Purpose Input and Output (GPIO) pins. To use the code samples:
 1. Download the code samples onto your Raspberry Pi.
-1. Follow the wiring diagrams in the [Schematics folder](./Schematics)
+1. Follow the wiring diagrams in the [schematics folder](./schematics).
 1. Download code libraries using pip. For example:
 ``` sudo pip install gpiozero ```
 1. Open the code sample in your preferred Python editor 
@@ -15,7 +15,7 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 * Pi Camera image Capture with a Pushbutton: pushbutton_image_capture.py 
 
 ## Wiring Diagrams
-Check the [schematics](/schematics) folder for wiring diagrams for relevant examples.
+Check the [schematics](./schematics) folder for wiring diagrams for relevant examples.
 
 *All schematics were made with [Fritzing](https://fritzing.org/).*
 
