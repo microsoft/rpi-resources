@@ -11,7 +11,7 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 
 ## Contents
 * [Sample Python programs with the GPIO Zero library (e.g. blink an LED, pushbutton input, and more)](https://gpiozero.readthedocs.io/en/stable/recipes.html)
-* [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4
+* [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
 * Pi Camera image Capture with a Pushbutton: pushbutton_image_capture.py 
 
 ## Wiring Diagrams
