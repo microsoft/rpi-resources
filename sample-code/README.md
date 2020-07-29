@@ -11,14 +11,9 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 
 ## Contents
 * [Sample Python programs with the GPIO Zero library (e.g. blink an LED, pushbutton input, and more)](https://gpiozero.readthedocs.io/en/stable/recipes.html)
-<<<<<<< HEAD
 * [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
-* Pi Camera image Capture with a Pushbutton: pushbutton_image_capture.py 
-=======
-* [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4
-* Pi Camera Image Capture with a Pushbutton: pushbutton_image_capture.py 
-* Pi Servo Control: servo_control.py
->>>>>>> add-sample-code
+* Pi Camera Image Capture with a Pushbutton: [pushbutton_image_capture.py](pushbutton_image_capture.py)
+* Pi Servo Control: [servo_control.py](servo_control.py)
 
 ## Wiring Diagrams
 Check the [schematics](./schematics) folder for wiring diagrams for relevant examples.
