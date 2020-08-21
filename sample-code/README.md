@@ -16,6 +16,8 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 * Pi Camera Image Capture with a Pushbutton: [pushbutton_image_capture.py](pushbutton_image_capture.py)
 * Pi Servo Control: 
     * [servo_control.py](servo_control.py)
+    * [servo_control_angular.py](servo_control_angular.py)  
+    Note: Please check the spec of your servo for the max angle and modify the max/min angles in the code accordingly.
     * [servo_control_noJitter.py](servo_control_noJitter.py)  
     Note: You will need to install a library before running the example  
     ```sudo pip3 pigpio```  
