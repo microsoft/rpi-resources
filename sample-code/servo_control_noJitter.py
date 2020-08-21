@@ -1,14 +1,11 @@
 # You might see jitter when control the Servo.
 # This example shows how you can get rid of the jitter.
-# To understand more, see the reference below:
-# Reference: https://steemit.com/python/@makerhacks/jitter-free-servo-control-on-the-raspberry-pi
-#            https://ben.akrin.com/?p=9158
-
+# To understand more, see the reference in README.md
 
 # Note: You will need to install a library before running the example
 # > sudo pip3 pigpio
 
-# Before you run the code, please run the following command first
+# Before you run the code, please run the following command in terminal first
 # > sudo pigpiod
 
 # Import libraries

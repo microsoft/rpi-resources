@@ -14,7 +14,13 @@ This folder contains example Python code to use the Pi Camera and General Purpos
 * [Sample Python programs with the GPIO Zero library (e.g. blink an LED, pushbutton input, and more)](https://gpiozero.readthedocs.io/en/stable/recipes.html)
 * [Image Capture with the Pi Camera in Python (Raspberry Pi Foundation)](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
 * Pi Camera Image Capture with a Pushbutton: [pushbutton_image_capture.py](pushbutton_image_capture.py)
-* Pi Servo Control: [servo_control.py](servo_control.py)
+* Pi Servo Control: 
+    * [servo_control.py](servo_control.py)
+    * [servo_control_noJitter.py](servo_control_noJitter.py)  
+    Note: You will need to install a library before running the example  
+    ```sudo pip3 pigpio```  
+    Before you run the code, please run the following command in terminal first  
+    ```sudo pigpiod```
  
 
 ## Wiring Diagrams
@@ -34,6 +40,9 @@ All of the following resources are created and maintained by the [Raspberry Pi F
 * [Pi Camera Library Documentation](https://picamera.readthedocs.io/en/release-1.13/)
 * [Assorted Azure Learning Resources](https://docs.microsoft.com/en-us/learn/azure/)
 
+### Jitter Free Servo Resources
+* [Jitter Free Servo Control on the Raspberry Pi](https://steemit.com/python/@makerhacks/jitter-free-servo-control-on-the-raspberry-pi)
+* [Raspberry Pi Servo Jitter](https://ben.akrin.com/?p=9158)
 
 ## Contributions? Questions? Requests?
 As mentioned in the main README, we welcome contributions! Please read through the README and Code of Conduct to submit a pull request.
